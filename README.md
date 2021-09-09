@@ -118,7 +118,7 @@ yarn test # make sure your code change pass the test
 
 3.4.2 部署项目并通过自定义域名访问
 
-域名解析完成后，只需要在项目部署的自定义域名出填入域名，并再次部署，即可通过自定义域名实现项目的访问
+域名解析完成后，即可通过自定义域名实现项目的访问
 
 <img src="https://readme-img-2.oss-us-west-1.aliyuncs.com/feApp/github/vuepress/vue6.png" width="450">
 
