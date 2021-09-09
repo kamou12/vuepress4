@@ -1,94 +1,131 @@
-<p align="center">
-  <a href="https://vuepress.vuejs.org/" target="_blank">
-    <img width="180" src="https://raw.githubusercontent.com/vuejs/vuepress/master/packages/docs/docs/.vuepress/public/hero.png" alt="logo">
-  </a>
-</p>
+# vuepress
 
-<p align="center">
- <img src="https://img.shields.io/npm/dm/vuepress.svg" alt="Downloads"></a>
-  <a href="https://www.npmjs.com/package/vuepress"><img src="https://img.shields.io/npm/v/vuepress.svg" alt="Version"></a>
-  <a href="https://github.com/vuejs/vuepress/blob/master/LICENSE"><img src="https://img.shields.io/npm/l/vuepress.svg" alt="License"></a>
-  <a href="https://discordapp.com/invite/HBherRA"><img src="https://img.shields.io/badge/Discord-join%20chat-738bd7.svg" alt="VuePress channel on Discord"></a>
-</p>
+## 一、vuepress简介和使用
+### **背景介绍**
 
-> VuePress 2 is coming! Please check out [vuepress-next](https://github.com/vuepress/vuepress-next).
+VuePress 由两部分组成：第一部分是一个极简静态网站生成器 ，它包含由 Vue 驱动的主题系统和插件 API，另一个部分是为书写技术文档而优化的默认主题，它的诞生初衷是为了支持 Vue 及其子项目的文档需求。
 
-## Documentation
+每一个由 VuePress 生成的页面都带有预渲染好的 HTML，也因此具有非常好的加载性能和搜索引擎优化（SEO）。同时，一旦页面被加载，Vue 将接管这些静态内容，并将其转换成一个完整的单页应用（SPA），其他的页面则会只在用户浏览到的时候才按需加载。
 
-Check out our docs at https://vuepress.vuejs.org/.
+项目官网：https://vuepress.vuejs.org/
 
-## Showcase
+项目网址：https://github.com/vuejs/vuepress
 
-- [Awesome VuePress](https://github.com/vuepressjs/awesome-vuepress)
-- [vuepress.tools](https://z3by.github.io/vuepress-tools/) (By [Ahmad Mostafa](https://ahmadmostafa.com))
+### **最佳实践**
 
-## Contribution
+1.1 vuepress的本地发布
 
-Want to contribute? Check our [Contributing Guide](.github/CONTRIBUTING.md) and [issues for beginners](https://github.com/vuejs/vuepress/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22)!
-
-```bash
-yarn install # install all dependencies
+``` bash
+$ yarn install # install all dependencies
 yarn dev  # serves VuePress' own docs with itself
 yarn test # make sure your code change pass the test
 ```
 
-If you don't have a local checkout, you can also open [VuePress in Gitpod](https://gitpod.io/#https://github.com/vuejs/vuepress/blob/master/packages/docs/docs/README.md), a free online IDE for GitHub.
+1.2 vuepress的线上网站发布
 
-If you intend to make `"substantial"` changes to VuePress or its documentation, please checkout [VuePress RFCs](./rfcs/README.md).
+见下一章
 
-If you have a VuePress-related project/component/tool, add it with a pull request to [this curated list](https://github.com/vuepressjs/awesome-vuepress)!
+## 二、将vuepress项目通过云开发平台，快速发布为网站
 
-## Contributors
+### **背景介绍**
+云开发平台是阿里云面向广大开发者提供的免费云上研发工作平台，可以实现开发的全流程。关于云开发平台的介绍：https://help.aliyun.com/product/161245.html。
 
-### Creator / Lead
+### **最佳实践**
 
-<table>
-  <td align="center"><a href="http://evanyou.me"><img src="https://avatars1.githubusercontent.com/u/499550?v=4" width="100px;" alt="Evan You"/><br /><sub><b>Evan You</b></sub></a><br /><a href="https://github.com/vuejs/vuepress/commits?author=yyx990803" title="Code">💻</a></td>
-  <td align="center"><a href="http://ulivz.com"><img src="https://avatars1.githubusercontent.com/u/23133919?v=4" width="100px;" alt="ULIVZ"/><br /><sub><b>ULIVZ</b></sub></a><br /><a href="https://github.com/vuejs/vuepress/commits?author=ulivz" title="Code">💻</a> <a href="https://github.com/vuejs/vuepress/commits?author=ulivz" title="Documentation">📖</a></td>
-</table>
+**1.创建vuepress代码项目**
 
-### Active Core Team
+直接fork本项目到自己的GitHub账号下。
 
-<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- prettier-ignore-start -->
-<!-- markdownlint-disable -->
-<table>
-  <tr>
-    <td align="center"><a href="https://billychin.netlify.com/"><img src="https://avatars0.githubusercontent.com/u/38957202?v=4" width="100px;" alt="Billyyyyy3320"/><br /><sub><b>Billyyyyy3320</b></sub></a><br /><a href="https://github.com/vuejs/vuepress/commits?author=newsbielt703" title="Code">💻</a></td>
-    <td align="center"><a href="http://www.bencodezen.io"><img src="https://avatars0.githubusercontent.com/u/4836334?v=4" width="100px;" alt="Ben Hong"/><br /><sub><b>Ben Hong</b></sub></a><br /><a href="https://github.com/vuejs/vuepress/commits?author=bencodezen" title="Code">💻</a> <a href="https://github.com/vuejs/vuepress/commits?author=bencodezen" title="Documentation">📖</a> <a href="#question-bencodezen" title="Answering Questions">💬</a></td>
-    <td align="center"><a href="https://github.com/meteorlxy"><img src="https://avatars0.githubusercontent.com/u/18205362?s=400&v=4" width="100px;" alt="meteorlxy"/><br /><sub><b>meteorlxy</b></sub></a><br /><a href="https://github.com/vuejs/vuepress/commits?author=meteorlxy" title="Code">💻</a></td>
-    <td align="center"><a href="https://twitter.com/CodesOfRa"><img src="https://avatars0.githubusercontent.com/u/945186?v=4" width="100px;" alt="Ramona"/><br /><sub><b>Ramona</b></sub></a><br /><a href="https://github.com/vuejs/vuepress/commits?author=CodesOfRa" title="Code">💻</a> <a href="https://github.com/vuejs/vuepress/commits?author=CodesOfRa" title="Documentation">📖</a></td>
-    <td align="center"><a href="https://www.franck-abgrall.me/"><img src="https://avatars3.githubusercontent.com/u/9840435?v=4" width="100px;" alt="Franck Abgrall"/><br /><sub><b>Franck Abgrall</b></sub></a><br /><a href="https://github.com/vuejs/vuepress/commits?author=kefranabg" title="Code">💻</a> <a href="#question-kefranabg" title="Answering Questions">💬</a></td>
-  </tr>
-</table>
+**2.打开云开发平台，完成阿里云账号注册登陆，同意云开发平台服务协议** https://workbench.aliyun.com/application
 
-<!-- markdownlint-enable -->
-<!-- prettier-ignore-end -->
+<img src="https://ecoboost-readme-image.oss-cn-shanghai.aliyuncs.com/feApp/github/hexo/sign.png" width="400">
 
-<!-- ALL-CONTRIBUTORS-LIST:END -->
+**3.创建云开发平台-前端部署应用**
 
-### Core Team Emeriti
+3.1 创建前端应用
 
-Here we honor some no-longer-active core team members who have made valuable contributions in the past.
+依次点击「应用列表」「前端应用」「新建前端应用」按钮。首先绑定GitHub帐号，允许云开发平台构建、发布你的GitHub代码为可访问的网站。
 
-<table>
-  <tr>
-    <td align="center"><a href="https://github.com/f3ltron"><img src="https://avatars1.githubusercontent.com/u/11556276?v=4" width="100px;" alt="Giraud Florent"/><br /><sub><b>Giraud Florent</b></sub></a><br /><a href="https://github.com/vuejs/vuepress/commits?author=f3ltron" title="Code">💻</a></td>
-    <td align="center"><a href="https://frontstuff.io/"><img src="https://avatars0.githubusercontent.com/u/5370675?v=4" width="100px;" alt="Sarah Dayan"/><br /><sub><b>Sarah Dayan</b></sub></a><br /><a href="https://github.com/vuejs/vuepress/commits?author=sarahdayan" title="Code">💻</a> <a href="https://github.com/vuejs/vuepress/commits?author=sarahdayan" title="Documentation">📖</a></td>
-    <td align="center"><a href="https://twitter.com/_vinayak_k"><img src="https://avatars2.githubusercontent.com/u/19776877?v=4" width="100px;" alt="Vinayak Kulkarni"/><br /><sub><b>Vinayak Kulkarni</b></sub></a><br /><a href="#plugin-vinayakkulkarni" title="Plugin/utility libraries">🔌</a> <a href="https://github.com/vuejs/vuepress/commits?author=vinayakkulkarni" title="Code">💻</a> <a href="#blog-vinayakkulkarni" title="Blogposts">📝</a></td>
-    <td align="center"><a href="https://twitter.com/vicbergquist"><img src="https://avatars0.githubusercontent.com/u/25737281?v=4" width="100px;" alt="Victoria Bergquist"/><br /><sub><b>Victoria Bergquist</b></sub></a><br /><a href="https://github.com/vuejs/vuepress/commits?author=vicbergquist" title="Code">💻</a> <a href="#design-vicbergquist" title="Design">🎨</a></td>
-    <td align="center"><a href="https://sobolevn.me"><img src="https://avatars1.githubusercontent.com/u/4660275?v=4" width="100px;" alt="Nikita Sobolev"/><br /><sub><b>Nikita Sobolev</b></sub></a><br /><a href="https://github.com/vuejs/vuepress/commits?author=sobolevn" title="Code">💻</a> <a href="https://github.com/vuejs/vuepress/commits?author=sobolevn" title="Documentation">📖</a></td>
-    <td align="center"><a href="https://fatihacet.com"><img src="https://avatars3.githubusercontent.com/u/712419?v=4" width="100px;" alt="Fatih Acet"/><br /><sub><b>Fatih Acet</b></sub></a><br /><a href="https://github.com/vuejs/vuepress/commits?author=fatihacet" title="Code">💻</a></td>
-    <td align="center"><a href="http://farcaller.net/"><img src="https://avatars2.githubusercontent.com/u/693?v=4" width="100px;" alt="Vladimir Pouzanov"/><br /><sub><b>Vladimir Pouzanov</b></sub></a><br /><a href="https://github.com/vuejs/vuepress/commits?author=farcaller" title="Code">💻</a></td>
-  </tr>
+<img src="https://ecoboost-readme-image.oss-cn-shanghai.aliyuncs.com/feApp/github/hexo/create_0.png" width="200">
 
-</table>
+<img src="https://ecoboost-readme-image.oss-cn-shanghai.aliyuncs.com/feApp/github/hexo/oauth.png" width="200">
 
-### Code Contributors
+选择第一步中的代码仓库、主干分支等，并点击下一步。主干分支一般指的是代码的master或main等分支。
 
-This project exists thanks to all the people who contribute. [[Contribute](.github/CONTRIBUTING.md)].
-<a href="https://github.com/vuejs/vuepress/graphs/contributors"><img src="https://opencollective.com/vuepress/contributors.svg?width=890&button=false" /></a>
+<img src="https://readme-img-2.oss-us-west-1.aliyuncs.com/feApp/github/vuepress/vue1.png" width="450">
 
-## License
+填写基本信息并点击「完成」。稍等片刻创建成功后，将进入到应用部署界面。
 
-[MIT](https://github.com/vuejs/vuepress/blob/master/LICENSE)
+<img src="https://readme-img-2.oss-us-west-1.aliyuncs.com/feApp/github/vuepress/vue2.png" width="450">
+
+3.2 开发部署配置
+
+填写日常/线上环境的部署配置
+按照"?"提示，依次填写部署配置信息。其中：
+
+- 如需使用自定义域名访问，可将自定义域名填入对应位置，并在部署成功后，根据步骤3.4进行域名解析后实现自定义域名访问</br>
+  <img src="https://readme-img-2.oss-us-west-1.aliyuncs.com/feApp/github/vuepress/vue3.png" width="450">
+
+- 资源路径需改为./vuepress，因为该项目生成的静态文件默认存储在根目录下的vuepress文件夹中
+
+3.3 进行项目的部署和查看
+
+依次点击「部署」「确定」，即可启动日常/线上环境的发布流程。对于每个代码分支，要求先发布日常环境，再发布线上。若不需多套环境，则可以只使用日常环境，或者发布一次日常环境后，仅使用线上环境即可。
+
+<img src="https://ecoboost-readme-image.oss-cn-shanghai.aliyuncs.com/feApp/github/hexo/deploy.png" width="300">
+
+3.3.1 部署完成，查看部署结果
+
+访问**测试域名**或者**自定义域名**，以下以测试域名为例
+
+<img src="https://readme-img-2.oss-us-west-1.aliyuncs.com/feApp/github/vuepress/vue4.png" width="450">
+
+<img src="https://readme-img-2.oss-us-west-1.aliyuncs.com/feApp/github/vuepress/vue5.png" width="650">
+
+3.3.2 在部署完成后，部署状态会显示为“已部署”。且部署网站的记录和过程，也会被完整记录下来：
+
+<img src="https://readme-img-2.oss-us-west-1.aliyuncs.com/feApp/github/docs/create4.png" width="600">
+
+3.3.3可点击部署记录的「查看结果」来查看部署到OSS存储中的静态资源。
+
+<img src="https://readme-img-2.oss-us-west-1.aliyuncs.com/feApp/github/docs/data2.png" width="400">
+
+<img src="https://ecoboost-readme-image.oss-cn-shanghai.aliyuncs.com/feApp/github/hexo/result_download.png" width="350">
+
+3.3.4 可点击部署记录的「查看日志」查看部署的详细过程，并在部署发生错误时，精确定位学习错误情况。
+
+<img src="https://readme-img-2.oss-us-west-1.aliyuncs.com/feApp/github/docs/data1.png" width="400">
+
+部署操作可以在每次更新内容并push后再次进行，实现静态网站内容的按需实时更新。
+
+3.4 将OSS存储中的项目发布为网站链接
+
+3.4.1 解析自己的域名到OSS Bucket的访问域名上
+
+打开自己域名的DNS解析控制台，使用阿里云域名或其它提供商的域名均可，此处以阿里云为例：
+
+首先，找到自己要解析的域名，添加/修改一条解析记录：
+
+<img src="https://ecoboost-readme-image.oss-cn-shanghai.aliyuncs.com/feApp/github/hexo/cname.png" width="650">
+
+如下图所示，配置CNAME、自己的域名、记录值：
+
+<img src="https://ecoboost-readme-image.oss-cn-shanghai.aliyuncs.com/feApp/github/hexo/cname_2.png" width="400">
+
+记录值查看方法示意图：
+
+<img src="https://ecoboost-readme-image.oss-cn-shanghai.aliyuncs.com/feApp/github/hexo/oss_domain.png" width="600">
+
+完成配置后，稍等片刻，确定使用https://zijian.aliyun.com/ ，或者ping/dig/nslookup等指令可以查找到本域名的解析情况。
+
+3.4.2 当URL仅访问目录而非目录下的HTML文件时，由OSS托管路由自动定向至目录下的指定HTML文件
+
+某些前端项目生成的静态代码，其HTML中嵌入的链接地址是不含index.html的。这要求放置HTML文件的存储，或NGINX服务器等，有将裸访问路径自动对应到具体HTML文件的能力。
+
+OSS Bucket具有该托管能力，需要在使用的OSS Bucket内，选择「基础设置」「静态页面」，并如下图所示，填写默认首页为index.html，开通子目录首页功能，并点击「保存」。
+
+<img src="https://ecoboost-readme-image.oss-cn-shanghai.aliyuncs.com/feApp/github/hexo/oss_index.png" width="350">
+
+3.5 （可选）使用CDN加速域名访问，节约流量费用
+
+可点击「部署配置」中的「如何配置CDN加速」，将自己的域名与CDN加速绑定，从而加速网站访问。
