@@ -118,7 +118,7 @@ yarn test # make sure your code change pass the test
 
 3.4.2 部署项目并通过自定义域名访问
 
-域名解析完成后，即可通过自定义域名实现项目的访问
+域名解析完成后，即可通过自定义域名实现项目的访问，自定义域名没有时效限制，您可持久访问该项目。
 
 <img src="https://readme-img-2.oss-us-west-1.aliyuncs.com/feApp/github/vuepress/vue6.png" width="450">
 
@@ -126,7 +126,7 @@ yarn test # make sure your code change pass the test
 
 某些前端项目生成的静态代码，其HTML中嵌入的链接地址是不含index.html的。这要求放置HTML文件的存储，或NGINX服务器等，有将裸访问路径自动对应到具体HTML文件的能力。
 
-OSS Bucket具有该托管能力，需要在使用的OSS Bucket内，选择「基础设置」「静态页面」，并如下图所示，填写默认首页为index.html，开通子目录首页功能，并点击「保存」。
+OSS Bucket具有该托管能力，需要在使用的OSS Bucket内，选择「基础设置」「静态页面」，填写默认首页为index.html，开通子目录首页功能，并点击「保存」。
 
 <img src="https://readme-img-2.oss-us-west-1.aliyuncs.com/feApp/github/vuepress/vue6.png" width="450">
 
