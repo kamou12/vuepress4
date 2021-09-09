@@ -122,14 +122,6 @@ yarn test # make sure your code change pass the test
 
 <img src="https://readme-img-2.oss-us-west-1.aliyuncs.com/feApp/github/vuepress/vue6.png" width="450">
 
-当URL仅访问目录而非目录下的HTML文件时，由OSS托管路由自动定向至目录下的指定HTML文件
-
-某些前端项目生成的静态代码，其HTML中嵌入的链接地址是不含index.html的。这要求放置HTML文件的存储，或NGINX服务器等，有将裸访问路径自动对应到具体HTML文件的能力。
-
-OSS Bucket具有该托管能力，需要在使用的OSS Bucket内，选择「基础设置」「静态页面」，填写默认首页为index.html，开通子目录首页功能，并点击「保存」。
-
-<img src="https://readme-img-2.oss-us-west-1.aliyuncs.com/feApp/github/vuepress/vue6.png" width="450">
-
 3.5 （可选）使用CDN加速域名访问，节约流量费用
 
 可点击「部署配置」中的「如何配置CDN加速」，将自己的域名与CDN加速绑定，从而加速网站访问。
