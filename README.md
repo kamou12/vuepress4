@@ -120,7 +120,7 @@ yarn test # make sure your code change pass the test
 
 OSS Bucket具有该托管能力，需要在使用的OSS Bucket内，选择「基础设置」「静态页面」，并如下图所示，填写默认首页为index.html，开通子目录首页功能，并点击「保存」。
 
-<img src="https://readme-img-2.oss-us-west-1.aliyuncs.com/feApp/github/vuepress/vue1.png" width="450">
+<img src="https://readme-img-2.oss-us-west-1.aliyuncs.com/feApp/github/vuepress/vue6.png" width="450">
 
 3.5 （可选）使用CDN加速域名访问，节约流量费用
 
