@@ -118,7 +118,7 @@ yarn test # make sure your code change pass the test
 
 3.4.2 部署项目并通过自定义域名访问
 
-域名解析完成后，即可通过自定义域名实现项目的访问，自定义域名没有时效限制，您可持久访问该项目。
+域名解析完成后，即可通过自定义域名实现项目的访问，自定义域名更具语义性，方便记忆，并且没有时效限制，您可持久访问该项目。
 
 <img src="https://readme-img-2.oss-us-west-1.aliyuncs.com/feApp/github/vuepress/vue6.png" width="450">
 
