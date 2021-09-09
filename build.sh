@@ -1,3 +1,3 @@
-cp -r vuepress build
 yarn install
 yarn build
+cp -r vuepress build
