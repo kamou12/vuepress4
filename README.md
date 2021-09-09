@@ -100,6 +100,8 @@ yarn test # make sure your code change pass the test
 
 3.4 将OSS存储中的项目发布为网站链接
 
+你可以通过将自定义域名解析到OSS的方式，来实现OSS内项目的自定义域名访问
+
 3.4.1 解析自己的域名到OSS Bucket的访问域名上
 
 打开自己域名的DNS解析控制台，使用阿里云域名或其它提供商的域名均可，此处以阿里云为例：
@@ -114,7 +116,13 @@ yarn test # make sure your code change pass the test
 
 完成配置后，稍等片刻，确定使用https://zijian.aliyun.com/ ，或者ping/dig/nslookup等指令可以查找到本域名的解析情况。
 
-3.4.2 当URL仅访问目录而非目录下的HTML文件时，由OSS托管路由自动定向至目录下的指定HTML文件
+3.4.2 部署项目并通过自定义域名访问
+
+域名解析完成后，只需要在项目部署的自定义域名出填入域名，并再次部署，即可通过自定义域名实现项目的访问
+
+<img src="https://readme-img-2.oss-us-west-1.aliyuncs.com/feApp/github/vuepress/vue6.png" width="450">
+
+当URL仅访问目录而非目录下的HTML文件时，由OSS托管路由自动定向至目录下的指定HTML文件
 
 某些前端项目生成的静态代码，其HTML中嵌入的链接地址是不含index.html的。这要求放置HTML文件的存储，或NGINX服务器等，有将裸访问路径自动对应到具体HTML文件的能力。
 
